@@ -80,6 +80,12 @@ Uninstalling Casks
 
 ## Terminal
 
+[iTerm 2](http://iterm2.com) is a replacement for the Terminal app that ships with Mac OS X
+
+### Install
+
+    $ brew cask install iterm2
+
 ### Customize 
 
 #### Colors 
@@ -89,12 +95,51 @@ I use the [Solarized](http://ethanschoonover.com/solarized) color scheme.
 - In **iTerm2 Preferences**, under **Profiles** and **Colors**, go to **Load Presets... > Import...**, find and open the two **.itermcolors** files we downloaded.
 - Go back to **Load Presets...** and select **Solarized Dark** to activate it. Voila!
 
-### dot files
+### Dotfiles
 
     $ cd ~
     $ curl -O https://raw.githubusercontent.com/psaelens/mac-dev-setup/master/.bash_profile
     $ curl -O https://raw.githubusercontent.com/psaelens/mac-dev-setup/master/.bash_prompt
     $ curl -O https://raw.githubusercontent.com/psaelens/mac-dev-setup/master/.aliases
+
+### Shell
+
+ZShell (Zsh) is a shell designed for interactive use, and can be used as a powerful command interpreter for shell scripting.
+
+    $ brew install zsh
+    
+
+add `/usr/local/bin/zsh` to /etc/shells
+
+    $ sudo vim /etc/shells
+
+To actually change the shell assigned to your user account run
+
+    $ chsh -s /usr/local/bin/zsh
+
+#### Prezto
+
+[Prezto](https://github.com/sorin-ionescu/prezto) is the configuration framework for Zsh; it enriches the command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes.
+
+    $ git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+
+    setopt EXTENDED_GLOB
+    for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+      ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+    done
+
+## Sublime Text
+
+### Install
+
+Install the [Package Control](https://packagecontrol.io)
+
+### Documentation 
+
+* [Sublime Text 2 Documentation](https://www.sublimetext.com/docs/2/)
+* [Perfect Workflow in Sublime Text](http://code.tutsplus.com/articles/perfect-workflow-in-sublime-text-free-course--net-27293)
+
+
 
 ## Related links
 * https://github.com/nicolashery/mac-dev-setup
