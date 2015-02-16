@@ -91,10 +91,6 @@ I use the [Solarized](http://ethanschoonover.com/solarized) color scheme.
 
 ### dot files
 
-* [.bash_profile](https://raw.githubusercontent.com/psaelens/mac-dev-setup/master/.bash_profile), 
-* [.bash_prompt](https://raw.githubusercontent.com/psaelens/mac-dev-setup/master/.bash_prompt), 
-* [.aliases](https://raw.githubusercontent.com/psaelens/mac-dev-setup/master/.aliases)
-
     $ cd ~
     $ curl -O https://raw.githubusercontent.com/psaelens/mac-dev-setup/master/.bash_profile
     $ curl -O https://raw.githubusercontent.com/psaelens/mac-dev-setup/master/.bash_prompt
