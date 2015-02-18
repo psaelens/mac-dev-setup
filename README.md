@@ -139,7 +139,28 @@ Install the [Package Control](https://packagecontrol.io)
 * [Sublime Text 2 Documentation](https://www.sublimetext.com/docs/2/)
 * [Perfect Workflow in Sublime Text](http://code.tutsplus.com/articles/perfect-workflow-in-sublime-text-free-course--net-27293)
 
+## Intellij IDEA 
+
+### Theme : Solarized color schemes
+
+* [Solarized homepage]http://ethanschoonover.com/solarized
+* [Solarized (Alternate)]http://www.ideacolorthemes.org/themes/83/
+
+1. Go to `File | Import Settings...` and specify the `intellij-colors-solarized` directory.
+ Clik `OK` in the dialog that appears.
+
+2. Restart IntelliJ IDEA
+
+3. Go to `Preferences | Editor | Colors & Fonts` and select one of the new 
+color themes.
+
+### Documentation 
+
+* [How to be awesome in PHPStorm](https://laracasts.com/series/how-to-be-awesome-in-phpstorm)
 
 
 ## Related links
 * https://github.com/nicolashery/mac-dev-setup
+* http://code.tutsplus.com/tutorials/setting-up-a-mac-dev-machine-from-zero-to-hero-with-dotfiles--net-35449
+* https://dotfiles.github.io
+* 
