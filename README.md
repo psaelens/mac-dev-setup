@@ -163,4 +163,4 @@ color themes.
 * https://github.com/nicolashery/mac-dev-setup
 * http://code.tutsplus.com/tutorials/setting-up-a-mac-dev-machine-from-zero-to-hero-with-dotfiles--net-35449
 * https://dotfiles.github.io
-* 
+* http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac
