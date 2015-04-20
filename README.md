@@ -128,6 +128,25 @@ To actually change the shell assigned to your user account run
       ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
     done
 
+## Java
+### Installing java via Homebrew cask
+latest version (java 8)
+brew cask install java 
+
+other version
+First, we need the caskroom/versions repo
+brew tap caskroom/versions
+
+then look at available java
+brew cask search java
+
+### jEnv
+Manage java environment
+brew install jenv
+
+#### Usage
+http://www.jenv.be
+
 ## Sublime Text
 
 ### Install
